@@ -1,7 +1,11 @@
-import React from "react";
+import ChartContainer from "./frontEnd/ChartContainer";
 
 const AppContainer = () => {
-  return <div>AppContainer</div>;
+  return (
+    <>
+      <ChartContainer />
+    </>
+  );
 };
 
 export default AppContainer;
